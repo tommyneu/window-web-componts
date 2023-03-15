@@ -1,0 +1,11 @@
+$border-color: cornflowerblue;
+
+:host {
+    position: relative;
+    display: inline-block;
+    border: solid 1px $border-color;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}

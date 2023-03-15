@@ -1,0 +1,24 @@
+$border-color: cornflowerblue;
+
+:host {
+    position: relative;
+    display: inline-block;
+    background-color: $border-color;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#close_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 0.25rem;
+    margin: 0;
+}
+
+#close_button:active{
+    border: solid black 1px;
+}

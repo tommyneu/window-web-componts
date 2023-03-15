@@ -1,0 +1,7 @@
+@use "../settings" as settings;
+
+body{
+    background-color: settings.$background-color;
+    color: settings.$font-color;
+    font-family: settings.$font;
+}
