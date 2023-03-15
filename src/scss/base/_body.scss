@@ -1,0 +1,7 @@
+@use "../abstracts" as abstracts;
+
+body{
+    background-color: abstracts.$background-color;
+    color: abstracts.$font-color;
+    font-family: abstracts.$font;
+}

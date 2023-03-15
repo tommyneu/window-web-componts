@@ -1,8 +1,7 @@
 // Main will bring together all css outputting files
 // Main will not output any css itself
 
-@use "./generic"    as *;
-@use "./elements"   as *;
-@use "./objects"    as *;
+@use "./abstracts"  as *;
+@use "./base"       as *;
+@use "./layout"     as *;
 @use "./components" as *;
-@use "./utilities"  as *;
