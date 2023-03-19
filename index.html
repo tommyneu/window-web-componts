@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SPA WC Vite Setup</title>
-  </head>
-  <body>
-    <dcf-card>
-      <p>This is a Card</p>
-    </dcf-card>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SPA WC Vite Setup</title>
+    </head>
+    <body>
+        <tn-window>
+            <div style="display: flex; flex-flow: column; justify-content: center; align-items: center; height: 100%; width: 100%;">
+                <p>This is a Card</p>
+                <button>Button Test</button>
+            </div>
+        </tn-window>
 
-    <dcf-button>
-      Button Text
-    </dcf-button>
+        <tn-window width="200" height="200" y="50" x="50">
+            <span slot="title">Untitled</span>
+            <div>
+                <p>Window 2</p>
+            </div>
+        </tn-window>
 
-    <button id="close_button">x</button>
-    <script type="module" src="/src/loader.ts"></script>
-  </body>
+        <button>x</button>
+        <script type="module" src="/src/loader.ts"></script>
+    </body>
 </html>

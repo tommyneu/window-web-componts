@@ -1,9 +1,9 @@
-import * as card_plugin from "./plugins/card.plugin";
+import * as window_plugin from "./plugins/window.plugin";
 import * as button_plugin from "./plugins/button.plugin";
 
-let plugins: Array<dcf.plugin> = [];
+let plugins: Array<tn.plugin> = [];
 
-plugins.push(card_plugin);
+plugins.push(window_plugin);
 plugins.push(button_plugin);
 
 console.log("Plugins loaded");

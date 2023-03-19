@@ -1,6 +1,6 @@
-declare namespace dcf {
+declare namespace tn {
 
-    export type tag_name = string;
+    export type tag_name = `tn-${string}`;
 
     export type selectorFunc = () => string
     export type initializeFunc = () => void
